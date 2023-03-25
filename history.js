@@ -1,8 +1,3 @@
-// NYT Bestsellers Lists history.js
-// Jean Paul Espinosa, Bruck Negash, Milca Ucelo
-// CS4220-01
-// Due: March 24, 2023
-
 const fs = require('fs');
 
 const historyFile = './search-history.json';
