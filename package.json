@@ -1,0 +1,16 @@
+{
+  "name": "nytbooks-app-cli",
+  "version": "1.0.0",
+  "description": "A cli that searchs through NYT Bestsellers List for Fiction by date, and prompts the user to select a specific book to display.",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jean Paul Espinosa, Bruck Negash, Milca Ucelo",
+  "license": "ISC",
+  "dependencies": {
+    "prompts": "^2.4.2",
+    "superagent": "^8.0.9",
+    "yargs": "^17.7.1"
+  }
+}
