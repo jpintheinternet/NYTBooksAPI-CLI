@@ -1,8 +1,3 @@
-// NYT Bestsellers Lists api.js
-// Jean Paul Espinosa, Bruck Negash, Milca Ucelo
-// CS4220-01
-// Due: March 24, 2023
-
 const superagent = require('superagent');
 const base = 'https://api.nytimes.com/svc/books/v3/lists';
 const apiKey = 'eiwoFSWEcXYP39JpcKVBBUvSUaL2JNZD';
