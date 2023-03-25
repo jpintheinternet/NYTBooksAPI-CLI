@@ -43,7 +43,8 @@ const searchFiction = async (args) => {
     console.log(
         `\nAuthor: ${bookDescription.results[0].author} ` +
         `\nTitle: ${bookDescription.results[0].title}` +
-        `\nDescription: ${bookDescription.results[0].description}\n`);
+        `\nDescription: ${bookDescription.results[0].description}` +
+        `\nISBN13: ${bookDescription.results[0].ranks_history[0].primary_isbn13}\n`);
     
     // Saves the searc keyword and the number of results to the search history
     saveSearchHistory(args, bookList.num_results);
